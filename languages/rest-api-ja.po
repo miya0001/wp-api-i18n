@@ -8,42 +8,44 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-10-13 00:26+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #: lib/endpoints/class-wp-rest-attachments-controller.php:45
 msgid "Sorry, you are not allowed to upload media on this site."
-msgstr ""
+msgstr "サイトへのメディアのアップロードは許可されていません。"
 
 #: lib/endpoints/class-wp-rest-attachments-controller.php:53
 msgid "Sorry, you are not allowed to upload media to this resource."
-msgstr ""
+msgstr "このリソースへのメディアのアップロードは許可されていません。"
 
 #: lib/endpoints/class-wp-rest-attachments-controller.php:69
 #: lib/endpoints/class-wp-rest-attachments-controller.php:168
 msgid "Invalid parent type."
-msgstr ""
+msgstr "無効な親タイプです。"
 
 #: lib/endpoints/class-wp-rest-attachments-controller.php:309
 msgid "Alternative text to display when resource is not displayed."
-msgstr ""
+msgstr "リソースが表示されていないときに表示する代替テキスト。"
 
 #: lib/endpoints/class-wp-rest-attachments-controller.php:317
 msgid "The caption for the resource."
-msgstr ""
+msgstr "リソースのキャプション。"
 
 #: lib/endpoints/class-wp-rest-attachments-controller.php:325
 msgid "The description for the resource."
-msgstr ""
+msgstr "リソースの説明。"
 
 #: lib/endpoints/class-wp-rest-attachments-controller.php:333
 msgid "Type of resource."
-msgstr ""
+msgstr "リソースの種類。"
 
 #: lib/endpoints/class-wp-rest-attachments-controller.php:340
 msgid "Mime type of resource."
-msgstr ""
+msgstr "リソースの MIME タイプ。"
 
 #: lib/endpoints/class-wp-rest-attachments-controller.php:346
 msgid "Details about the resource file, specific to its type."
@@ -1136,53 +1138,54 @@ msgstr ""
 
 #: plugin.php:464
 msgid "%s must be greater than %d (exclusive)"
-msgstr ""
+msgstr "％s は％dを超過しなければなりません。"
 
 #: plugin.php:466
 msgid "%s must be greater than %d (inclusive)"
-msgstr ""
+msgstr "％s は％d以上でなければなりません。"
 
 #: plugin.php:470
 msgid "%s must be less than %d (exclusive)"
-msgstr ""
+msgstr "％s は％d未満でなければなりません。"
 
 #: plugin.php:472
 msgid "%s must be less than %d (inclusive)"
-msgstr ""
+msgstr "％s は％d以下でなければなりません。"
 
 #: plugin.php:477
 msgid "%s must be between %d (exclusive) and %d (exclusive)"
-msgstr ""
+msgstr "%s は%dを超過し、かつ%d未満でなければなりません。"
 
 #: plugin.php:481
 msgid "%s must be between %d (inclusive) and %d (exclusive)"
-msgstr ""
+msgstr "%s は%以上かつ%d未満でなければなりません。"
 
 #: plugin.php:485
 msgid "%s must be between %d (exclusive) and %d (inclusive)"
-msgstr ""
+msgstr "%s は%dを超過し、かつ%d以内でなければなりません。"
 
 #: plugin.php:489
 msgid "%s must be between %d (inclusive) and %d (inclusive)"
-msgstr ""
+msgstr "%s は%以上かつ%d以下でなければなりません。"
 
 #. Plugin Name of the plugin/theme
 msgid "WP REST API"
-msgstr ""
+msgstr "WP REST API"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/WP-API/WP-API"
-msgstr ""
+msgstr "https://github.com/WP-API/WP-API"
 
 #. Description of the plugin/theme
 msgid ""
 "JSON-based REST API for WordPress, originally developed as part of GSoC 2013."
 msgstr ""
+"GSoC 2013 の一貫として開発された、WordPress のための JSON ベースの REST API。"
 
 #. Author of the plugin/theme
 msgid "WP REST API Team"
-msgstr ""
+msgstr "WP REST API チーム"
 
 #. Author URI of the plugin/theme
 msgid "http://v2.wp-api.org"
-msgstr ""
+msgstr "http://ja.wp-api.org"
