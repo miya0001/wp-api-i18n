@@ -1,4 +1,4 @@
-# Enables translation to the rest-api
+# Enables translation for the rest-api
 
 This plugin allows you to translate rest-api plugin before merging into WordPress core.
 
