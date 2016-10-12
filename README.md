@@ -2,6 +2,12 @@
 
 This plugin allows you to translate rest-api plugin before merging into WordPress core.
 
+## Reuiqres
+
+* https://ja.wordpress.org/plugins/rest-api/
+
+`rest-api.pot` was generated from rest-api 2.0-beta15.
+
 ## How to add translation
 
 Create a `.po` file for your locale.
