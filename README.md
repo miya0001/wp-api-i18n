@@ -17,3 +17,7 @@ $ msgfmt languages/rest-api-$locale.po -o languages/rest-api-$locale.mo
 ```
 
 `$locale` should be your locale like `de_DE`.
+
+## Screenshot
+
+![](https://www.evernote.com/l/ABXQsd5K3lJG0YSi1JHtif09y84p3NTv6s0B/image.png)
