@@ -12,5 +12,18 @@
  * @package         Rest_Api_I18n
  */
 
+load_plugin_textdomain(
+	"rest-api",
+	false,
+	dirname( plugin_basename( __FILE__ ) ).'/languages'
+);
 
-load_textdomain( "default", basename( dirname( plugin_dir_path( __FILE__ ) ) ) . "/langs/rest-api-$locale.mo" );
+add_filter( "gettext", "translate_rest_api", 10, 3 );
+
+function translate_rest_api( $translations, $text, $domain ) {
+	if ( "default" === $domain && translate( $text, "rest-api" ) ) {
+		return translate( $text, "rest-api" );
+	} else {
+		return $translations;
+	}
+}
