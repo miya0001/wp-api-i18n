@@ -1,0 +1,1188 @@
+# Copyright (C) 2016 WP REST API
+# This file is distributed under the same license as the WP REST API package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP REST API 2.0-beta15\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rest-api\n"
+"POT-Creation-Date: 2016-10-12 08:44:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:45
+msgid "Sorry, you are not allowed to upload media on this site."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:53
+msgid "Sorry, you are not allowed to upload media to this resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:69
+#: lib/endpoints/class-wp-rest-attachments-controller.php:168
+msgid "Invalid parent type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:309
+msgid "Alternative text to display when resource is not displayed."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:317
+msgid "The caption for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:325
+msgid "The description for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:333
+msgid "Type of resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:340
+msgid "Mime type of resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:346
+msgid "Details about the resource file, specific to its type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:352
+msgid "The id for the associated post of the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:357
+msgid "URL to the original resource file."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:375
+#: lib/endpoints/class-wp-rest-attachments-controller.php:556
+msgid "No data supplied"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:379
+msgid "No Content-Type supplied"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:383
+msgid "No Content-Disposition supplied"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:389
+msgid ""
+"Invalid Content-Disposition supplied. Content-Disposition needs to be "
+"formatted as `attachment; filename=\"image.png\"` or similar."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:398
+#: lib/endpoints/class-wp-rest-attachments-controller.php:565
+msgid "Content hash did not match expected"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:414
+msgid "Could not open file handle"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:519
+msgid "Limit result set to attachments of a particular media type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-attachments-controller.php:526
+msgid "Limit result set to attachments of a particular mime type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:56
+#: lib/endpoints/class-wp-rest-posts-controller.php:59
+msgid "Whether to bypass trash and force deletion."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:76
+#: lib/endpoints/class-wp-rest-comments-controller.php:236
+#: lib/endpoints/class-wp-rest-comments-controller.php:303
+msgid "Sorry, you cannot read the post for this comment."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:78
+msgid "Sorry, you cannot read comments without a post."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:84
+msgid "Sorry, you cannot view comments with edit context."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:104
+msgid "Query parameter not permitted: %s"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:230
+msgid "Sorry, you cannot read this comment."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:240
+msgid "Sorry, you cannot view this comment with edit context."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:257
+#: lib/endpoints/class-wp-rest-comments-controller.php:432
+#: lib/endpoints/class-wp-rest-comments-controller.php:485
+#: lib/endpoints/class-wp-rest-comments-controller.php:505
+msgid "Invalid comment id."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:263
+#: lib/endpoints/class-wp-rest-posts-controller.php:335
+#: lib/endpoints/class-wp-rest-posts-controller.php:578
+msgid "Invalid post id."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:282
+msgid "Sorry, you must be logged in to comment."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:287
+msgid "Comment author invalid."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:290
+msgid "Sorry, you cannot set karma for comments."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:293
+msgid "Sorry, you cannot set status for comments."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:297
+msgid "Sorry, you cannot create this comment without a post"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:307
+msgid "Sorry, comments are closed on this post."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:322
+msgid "Cannot create existing comment."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:369
+msgid "Creating comment failed."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:415
+msgid "Sorry, you can not edit this comment."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:436
+msgid "Sorry, you cannot change the comment type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:445
+msgid "Updating comment status failed."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:452
+msgid "Updating comment failed."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:488
+msgid "Sorry, you can not delete this comment."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:526
+msgid "The comment does not support trashing."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:530
+msgid "The comment has already been trashed."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:537
+msgid "The comment cannot be deleted."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:805
+#: lib/endpoints/class-wp-rest-posts-controller.php:1457
+#: lib/endpoints/class-wp-rest-revisions-controller.php:328
+msgid "Unique identifier for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:811
+msgid "The id of the user object, if author was a user."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:816
+msgid "Email address for the object author."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:822
+msgid "IP address for the object author."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:831
+msgid "Display name for the object author."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:840
+msgid "URL for the object author."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:846
+msgid "User agent for the object author."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:852
+#: lib/endpoints/class-wp-rest-posts-controller.php:1586
+msgid "The content for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:857
+#: lib/endpoints/class-wp-rest-posts-controller.php:1591
+msgid "Content for the object, as it exists in the database."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:862
+#: lib/endpoints/class-wp-rest-posts-controller.php:1596
+msgid "HTML content for the object, transformed for display."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:873
+#: lib/endpoints/class-wp-rest-revisions-controller.php:311
+msgid "The date the object was published."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:879
+msgid "The date the object was published as GMT."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:885
+msgid "Karma for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:890
+#: lib/endpoints/class-wp-rest-posts-controller.php:1463
+msgid "URL to the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:897
+#: lib/endpoints/class-wp-rest-posts-controller.php:1509
+#: lib/endpoints/class-wp-rest-revisions-controller.php:345
+msgid "The id for the parent of the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:905
+msgid "The id of the associated post object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:913
+msgid "State of the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:921
+msgid "Type of Comment for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:938
+#: lib/endpoints/class-wp-rest-users-controller.php:855
+msgid "Avatar URL with image size of %d pixels."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:946
+msgid "Avatar URLs for the object author."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:968
+#: lib/endpoints/class-wp-rest-posts-controller.php:1736
+msgid ""
+"Limit response to resources published after a given ISO8601 compliant date."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:974
+msgid ""
+"Limit result set to comments assigned to specific user ids. Requires "
+"authorization."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:980
+msgid ""
+"Ensure result set excludes comments assigned to specific user ids. Requires "
+"authorization."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:987
+msgid ""
+"Limit result set to that from a specific author email. Requires "
+"authorization."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:994
+#: lib/endpoints/class-wp-rest-posts-controller.php:1758
+msgid ""
+"Limit response to resources published before a given ISO8601 compliant date."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1000
+#: lib/endpoints/class-wp-rest-posts-controller.php:1764
+#: lib/endpoints/class-wp-rest-terms-controller.php:757
+#: lib/endpoints/class-wp-rest-users-controller.php:886
+msgid "Ensure result set excludes specific ids."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1007
+#: lib/endpoints/class-wp-rest-posts-controller.php:1770
+#: lib/endpoints/class-wp-rest-terms-controller.php:763
+#: lib/endpoints/class-wp-rest-users-controller.php:892
+msgid "Limit result set to specific ids."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1015
+msgid ""
+"Limit result set to that of a particular comment karma. Requires "
+"authorization."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1021
+msgid "Offset the result set by a specific number of comments."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1027
+#: lib/endpoints/class-wp-rest-posts-controller.php:1790
+#: lib/endpoints/class-wp-rest-terms-controller.php:777
+#: lib/endpoints/class-wp-rest-users-controller.php:905
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1038
+#: lib/endpoints/class-wp-rest-posts-controller.php:1797
+#: lib/endpoints/class-wp-rest-users-controller.php:913
+msgid "Sort collection by object attribute."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1055
+msgid "Limit result set to resources of specific parent ids."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1062
+msgid "Ensure result set excludes specific parent ids."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1069
+msgid "Limit result set to resources assigned to specific post ids."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1076
+msgid ""
+"Limit result set to comments assigned a specific status. Requires "
+"authorization."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-comments-controller.php:1083
+msgid ""
+"Limit result set to comments assigned a specific type. Requires "
+"authorization."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-controller.php:24
+msgid "The register_routes() method must be overriden"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-controller.php:34
+#: lib/endpoints/class-wp-rest-controller.php:44
+#: lib/endpoints/class-wp-rest-controller.php:54
+#: lib/endpoints/class-wp-rest-controller.php:64
+#: lib/endpoints/class-wp-rest-controller.php:74
+#: lib/endpoints/class-wp-rest-controller.php:84
+#: lib/endpoints/class-wp-rest-controller.php:94
+#: lib/endpoints/class-wp-rest-controller.php:104
+#: lib/endpoints/class-wp-rest-controller.php:114
+#: lib/endpoints/class-wp-rest-controller.php:124
+#: lib/endpoints/class-wp-rest-controller.php:134
+#: lib/endpoints/class-wp-rest-controller.php:145
+msgid "Method '%s' not implemented. Must be over-ridden in subclass."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-controller.php:248
+msgid "Current page of the collection."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-controller.php:256
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-controller.php:265
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-controller.php:283
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:52
+#: lib/endpoints/class-wp-rest-post-types-controller.php:50
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:56
+#: lib/endpoints/class-wp-rest-terms-controller.php:82
+#: lib/endpoints/class-wp-rest-terms-controller.php:282
+#: lib/endpoints/class-wp-rest-users-controller.php:86
+#: lib/endpoints/class-wp-rest-users-controller.php:217
+msgid "Sorry, you cannot view this resource with edit context."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:87
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:126
+#: lib/endpoints/class-wp-rest-post-types-controller.php:82
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:116
+msgid "Invalid resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:91
+#: lib/endpoints/class-wp-rest-post-types-controller.php:85
+msgid "Cannot view resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:187
+#: lib/endpoints/class-wp-rest-post-types-controller.php:175
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:207
+msgid "The title for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:193
+msgid "Whether posts with this resource should be private."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:199
+msgid "Whether posts with this resource should be protected."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:205
+msgid ""
+"Whether posts of this resource should be shown in the front end of the site."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:211
+msgid "Whether posts with this resource should be publicly-queryable."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:217
+msgid "Whether to include posts in the edit listing for their post type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-statuses-controller.php:223
+#: lib/endpoints/class-wp-rest-post-types-controller.php:181
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:213
+#: lib/endpoints/class-wp-rest-users-controller.php:809
+msgid "An alphanumeric identifier for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-types-controller.php:88
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:100
+msgid "Sorry, you are not allowed to manage this resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-types-controller.php:151
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:183
+msgid "All capabilities used by the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-types-controller.php:157
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:189
+msgid "A human-readable description of the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-types-controller.php:163
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:195
+msgid "Whether or not the resource should have children."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-post-types-controller.php:169
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:201
+msgid "Human-readable labels for the resource for various contexts."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:42
+msgid "The password for the post if it is password protected."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:78
+msgid "Sorry, you are not allowed to edit these posts in this post type"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:94
+msgid "You need to define a search term to order by relevance."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:272
+msgid "Sorry, you are not allowed to edit this post"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:278
+msgid "Incorrect post password."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:359
+msgid "You are not allowed to create posts as this user."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:363
+#: lib/endpoints/class-wp-rest-posts-controller.php:472
+msgid "You do not have permission to make posts sticky."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:367
+msgid "Sorry, you are not allowed to create new posts."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:380
+msgid "Cannot create existing post."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:464
+msgid "Sorry, you are not allowed to update this post."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:468
+msgid "You are not allowed to update posts as this user."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:489
+msgid "Post id is invalid."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:559
+msgid "Sorry, you are not allowed to delete posts."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:597
+msgid "Sorry, you are not allowed to delete this post."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:609
+msgid "The post does not support trashing."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:614
+msgid "The post has already been deleted."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:623
+#: lib/endpoints/class-wp-rest-revisions-controller.php:170
+msgid "The post cannot be deleted."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:856
+msgid "Invalid author id."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:867
+msgid "A post can not be sticky and have a password."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:871
+msgid "A sticky post can not be password protected."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:877
+msgid "A password protected post can not be set to sticky."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:885
+#: lib/endpoints/class-wp-rest-revisions-controller.php:82
+#: lib/endpoints/class-wp-rest-revisions-controller.php:115
+msgid "Invalid post parent id."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:934
+msgid "Sorry, you are not allowed to create private posts in this post type"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:940
+msgid "Sorry, you are not allowed to publish posts in this post type"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:969
+msgid "Invalid featured media id."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1425
+msgid "The date the object was published, in the site's timezone."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1431
+#: lib/endpoints/class-wp-rest-revisions-controller.php:317
+msgid "The date the object was published, as GMT."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1437
+msgid "The globally unique identifier for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1443
+#: lib/endpoints/class-wp-rest-revisions-controller.php:323
+msgid "GUID for the object, as it exists in the database."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1449
+msgid "GUID for the object, transformed for display."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1470
+msgid "The date the object was last modified, in the site's timezone."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1477
+#: lib/endpoints/class-wp-rest-revisions-controller.php:339
+msgid "The date the object was last modified, as GMT."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1484
+#: lib/endpoints/class-wp-rest-revisions-controller.php:350
+msgid "An alphanumeric identifier for the object unique to its type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1492
+msgid "A named status for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1498
+msgid "Type of Post for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1565
+msgid "The title for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1570
+msgid "Title for the object, as it exists in the database."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1575
+msgid "HTML title for the object, transformed for display."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1602
+msgid "Whether the content is protected with a password."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1613
+#: lib/endpoints/class-wp-rest-revisions-controller.php:306
+msgid "The id for the author of the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1621
+msgid "The excerpt for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1626
+msgid "Excerpt for the object, as it exists in the database."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1631
+msgid "HTML excerpt for the object, transformed for display."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1637
+msgid "Whether the excerpt is protected with a password."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1648
+msgid "The id of the featured media for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1656
+msgid "Whether or not comments are open on the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1662
+msgid "Whether or not the object can be pinged."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1671
+msgid "The order of the object in relation to other object of its type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1679
+msgid "The format for the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1691
+msgid "Whether or not the object should be treated as sticky."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1697
+msgid "A password to protect access to the content and excerpt."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1705
+msgid "The theme file to use to display the object."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1716
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1743
+msgid "Limit result set to posts assigned to specific authors."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1750
+msgid "Ensure result set excludes posts assigned to specific authors."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1777
+msgid "Limit result set to resources with a specific menu_order value."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1784
+#: lib/endpoints/class-wp-rest-terms-controller.php:770
+#: lib/endpoints/class-wp-rest-users-controller.php:898
+msgid "Offset the result set by a specific number of items."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1817
+msgid "Limit result set to those of particular parent ids."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1823
+msgid "Limit result set to all items except those of a particular parent id."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1831
+msgid "Limit result set to posts with a specific slug."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1837
+msgid ""
+"Limit result set to posts assigned a specific status; can be comma-delimited "
+"list of status types."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1844
+msgid ""
+"Use WP Query arguments to modify the response; private query vars require "
+"appropriate authorization."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1852
+msgid ""
+"Limit result set to all items that have the specified term assigned in the "
+"%s taxonomy."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1861
+msgid "Limit result set to items that are sticky."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-posts-controller.php:1886
+msgid "Status is forbidden"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-revisions-controller.php:66
+msgid "Sorry, you cannot view revisions of this post."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-revisions-controller.php:120
+#: lib/endpoints/class-wp-rest-revisions-controller.php:142
+msgid "Invalid revision id."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-revisions-controller.php:333
+msgid "The date the object was last modified."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:219
+msgid "Whether or not the term cloud should be displayed."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:225
+msgid "Types associated with resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-taxonomies-controller.php:244
+msgid "Limit results to resources associated with a specific post type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:62
+#: lib/endpoints/class-wp-rest-users-controller.php:55
+msgid "Required to be true, as resource does not support trashing."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:297
+#: lib/endpoints/class-wp-rest-terms-controller.php:401
+#: lib/endpoints/class-wp-rest-terms-controller.php:470
+msgid "Resource doesn't exist."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:322
+msgid "Sorry, you cannot create new resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:337
+#: lib/endpoints/class-wp-rest-terms-controller.php:421
+msgid "Can not set resource parent, taxonomy is not hierarchical."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:343
+#: lib/endpoints/class-wp-rest-terms-controller.php:427
+msgid "Parent resource doesn't exist."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:406
+msgid "Sorry, you cannot update resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:474
+msgid "Sorry, you cannot delete resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:491
+msgid "Resource does not support trashing."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:500
+#: lib/endpoints/class-wp-rest-users-controller.php:491
+msgid "The resource cannot be deleted."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:682
+#: lib/endpoints/class-wp-rest-users-controller.php:734
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:688
+msgid "Number of published posts for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:694
+msgid "HTML description of the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:702
+msgid "URL to the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:709
+msgid "HTML title for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:718
+msgid "An alphanumeric identifier for the resource unique to its type."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:726
+msgid "Type attribution for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:737
+msgid "The id for the parent of the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:788
+msgid "Sort collection by resource attribute."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:804
+msgid "Whether to hide resources not assigned to any posts."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:811
+msgid "Limit result set to resources assigned to a specific parent."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:818
+msgid "Limit result set to resources assigned to a specific post."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-terms-controller.php:824
+#: lib/endpoints/class-wp-rest-users-controller.php:928
+msgid "Limit result set to resources with a specific slug."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:82
+msgid "Sorry, you cannot filter by role."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:90
+msgid "Sorry, you cannot order by this parameter."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:209
+#: lib/endpoints/class-wp-rest-users-controller.php:236
+#: lib/endpoints/class-wp-rest-users-controller.php:387
+#: lib/endpoints/class-wp-rest-users-controller.php:473
+msgid "Invalid resource id."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:219
+msgid "Sorry, you cannot view this resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:254
+msgid "You are not currently logged in."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:275
+msgid "Sorry, you are not allowed to create resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:289
+msgid "Cannot create existing resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:313
+msgid "Error creating new resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:366
+msgid "Sorry, you are not allowed to edit resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:370
+msgid "Sorry, you are not allowed to edit roles of this resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:391
+msgid "Email address is invalid."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:395
+msgid "Username isn't editable"
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:399
+msgid "Slug is invalid."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:449
+msgid "Sorry, you are not allowed to delete this resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:468
+msgid "Users do not support trashing."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:478
+msgid "Invalid resource id for reassignment."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:697
+msgid "The role %s does not exist."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:704
+#: lib/endpoints/class-wp-rest-users-controller.php:714
+msgid "You cannot give resource that role."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:740
+msgid "Login name for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:749
+msgid "Display name for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:757
+msgid "First name for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:765
+msgid "Last name for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:773
+msgid "The email address for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:780
+msgid "URL of the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:786
+msgid "Description of the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:794
+msgid "Author URL to the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:801
+msgid "The nickname for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:817
+msgid "Registration date for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:824
+msgid "Roles assigned to the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:829
+msgid "Password for the resource (never included)."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:835
+msgid "All capabilities assigned to the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:841
+msgid "Any extra capabilities assigned to the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:863
+msgid "Avatar URLs for the resource."
+msgstr ""
+
+#: lib/endpoints/class-wp-rest-users-controller.php:933
+msgid ""
+"Limit result set to resources matching at least one specific role provided. "
+"Accepts csv list or single role."
+msgstr ""
+
+#: lib/fields/class-wp-rest-meta-fields.php:129
+#: lib/fields/class-wp-rest-meta-fields.php:159
+#: lib/fields/class-wp-rest-meta-fields.php:220
+msgid "You do not have permission to edit the %s custom field."
+msgstr ""
+
+#: lib/fields/class-wp-rest-meta-fields.php:137
+msgid "Could not delete meta value from database."
+msgstr ""
+
+#: lib/fields/class-wp-rest-meta-fields.php:191
+#: lib/fields/class-wp-rest-meta-fields.php:200
+#: lib/fields/class-wp-rest-meta-fields.php:228
+msgid "Could not update meta value in database."
+msgstr ""
+
+#: lib/fields/class-wp-rest-meta-fields.php:299
+msgid "Meta fields."
+msgstr ""
+
+#: plugin.php:175
+msgid "Site title."
+msgstr ""
+
+#: plugin.php:183
+msgid "Site description."
+msgstr ""
+
+#: plugin.php:194
+msgid "Site URL"
+msgstr ""
+
+#: plugin.php:205
+msgid ""
+"This address is used for admin purposes. If you change this we will send you "
+"an email at your new address to confirm it. The new address will not become "
+"active until confirmed."
+msgstr ""
+
+#: plugin.php:213
+msgid "A city in the same timezone as you."
+msgstr ""
+
+#: plugin.php:219
+msgid "A date format for all date strings."
+msgstr ""
+
+#: plugin.php:225
+msgid "A time format for all time strings."
+msgstr ""
+
+#: plugin.php:231
+msgid "A day number of the week that the week should start on."
+msgstr ""
+
+#: plugin.php:239
+msgid "WordPress locale code."
+msgstr ""
+
+#: plugin.php:246
+msgid "Convert emoticons like :-) and :-P to graphics on display."
+msgstr ""
+
+#: plugin.php:253
+msgid "Default category."
+msgstr ""
+
+#: plugin.php:259
+msgid "Default post format."
+msgstr ""
+
+#: plugin.php:265
+msgid "Blog pages show at most."
+msgstr ""
+
+#: plugin.php:424
+msgid "%s is not one of %s"
+msgstr ""
+
+#: plugin.php:429 plugin.php:433 plugin.php:437
+msgid "%s is not of type %s"
+msgstr ""
+
+#: plugin.php:444
+msgid "The date you provided is invalid."
+msgstr ""
+
+#: plugin.php:450
+msgid "The email address you provided is invalid."
+msgstr ""
+
+#: plugin.php:455
+msgid "%s is not a valid IP address."
+msgstr ""
+
+#: plugin.php:464
+msgid "%s must be greater than %d (exclusive)"
+msgstr ""
+
+#: plugin.php:466
+msgid "%s must be greater than %d (inclusive)"
+msgstr ""
+
+#: plugin.php:470
+msgid "%s must be less than %d (exclusive)"
+msgstr ""
+
+#: plugin.php:472
+msgid "%s must be less than %d (inclusive)"
+msgstr ""
+
+#: plugin.php:477
+msgid "%s must be between %d (exclusive) and %d (exclusive)"
+msgstr ""
+
+#: plugin.php:481
+msgid "%s must be between %d (inclusive) and %d (exclusive)"
+msgstr ""
+
+#: plugin.php:485
+msgid "%s must be between %d (exclusive) and %d (inclusive)"
+msgstr ""
+
+#: plugin.php:489
+msgid "%s must be between %d (inclusive) and %d (inclusive)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP REST API"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/WP-API/WP-API"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"JSON-based REST API for WordPress, originally developed as part of GSoC 2013."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP REST API Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://v2.wp-api.org"
+msgstr ""
