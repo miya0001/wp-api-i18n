@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-13 00:26+0900\n"
+"PO-Revision-Date: 2016-10-13 00:36+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -1138,19 +1138,19 @@ msgstr ""
 
 #: plugin.php:464
 msgid "%s must be greater than %d (exclusive)"
-msgstr "％s は％dを超過しなければなりません。"
+msgstr "%s は%dを超過しなければなりません。"
 
 #: plugin.php:466
 msgid "%s must be greater than %d (inclusive)"
-msgstr "％s は％d以上でなければなりません。"
+msgstr "%s は%d以上でなければなりません。"
 
 #: plugin.php:470
 msgid "%s must be less than %d (exclusive)"
-msgstr "％s は％d未満でなければなりません。"
+msgstr "%s は%d未満でなければなりません。"
 
 #: plugin.php:472
 msgid "%s must be less than %d (inclusive)"
-msgstr "％s は％d以下でなければなりません。"
+msgstr "%s は%d以下でなければなりません。"
 
 #: plugin.php:477
 msgid "%s must be between %d (exclusive) and %d (exclusive)"
@@ -1158,7 +1158,7 @@ msgstr "%s は%dを超過し、かつ%d未満でなければなりません。"
 
 #: plugin.php:481
 msgid "%s must be between %d (inclusive) and %d (exclusive)"
-msgstr "%s は%以上かつ%d未満でなければなりません。"
+msgstr "%s は%d以上かつ%d未満でなければなりません。"
 
 #: plugin.php:485
 msgid "%s must be between %d (exclusive) and %d (inclusive)"
@@ -1166,7 +1166,7 @@ msgstr "%s は%dを超過し、かつ%d以内でなければなりません。"
 
 #: plugin.php:489
 msgid "%s must be between %d (inclusive) and %d (inclusive)"
-msgstr "%s は%以上かつ%d以下でなければなりません。"
+msgstr "%s は%d以上かつ%d以下でなければなりません。"
 
 #. Plugin Name of the plugin/theme
 msgid "WP REST API"
