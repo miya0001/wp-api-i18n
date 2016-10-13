@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-13 00:36+0900\n"
+"PO-Revision-Date: 2016-10-13 14:00+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -997,43 +997,43 @@ msgstr ""
 
 #: lib/endpoints/class-wp-rest-users-controller.php:780
 msgid "URL of the resource."
-msgstr ""
+msgstr "リソースの URL。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:786
 msgid "Description of the resource."
-msgstr ""
+msgstr "リソースの説明。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:794
 msgid "Author URL to the resource."
-msgstr ""
+msgstr "リソースの著者 URL。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:801
 msgid "The nickname for the resource."
-msgstr ""
+msgstr "リソースのニックネーム。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:817
 msgid "Registration date for the resource."
-msgstr ""
+msgstr "リソースの登録日。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:824
 msgid "Roles assigned to the resource."
-msgstr ""
+msgstr "リソースに割り当てられている権限。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:829
 msgid "Password for the resource (never included)."
-msgstr ""
+msgstr "リソースのパスワード (含まれません)。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:835
 msgid "All capabilities assigned to the resource."
-msgstr ""
+msgstr "リソースに割り当てられているすべての権限。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:841
 msgid "Any extra capabilities assigned to the resource."
-msgstr ""
+msgstr "リソースに割り当てられているすべての追加権限。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:863
 msgid "Avatar URLs for the resource."
-msgstr ""
+msgstr "リソースの アバター URL。"
 
 #: lib/endpoints/class-wp-rest-users-controller.php:933
 msgid ""
@@ -1063,15 +1063,15 @@ msgstr ""
 
 #: plugin.php:175
 msgid "Site title."
-msgstr ""
+msgstr "サイトのタイトル"
 
 #: plugin.php:183
 msgid "Site description."
-msgstr ""
+msgstr "キャッチフレーズ"
 
 #: plugin.php:194
 msgid "Site URL"
-msgstr ""
+msgstr "サイト URL"
 
 #: plugin.php:205
 msgid ""
@@ -1079,38 +1079,40 @@ msgid ""
 "an email at your new address to confirm it. The new address will not become "
 "active until confirmed."
 msgstr ""
+"このアドレスは管理目的のために使用されます。これを変更する場合、確認のため新"
+"しいアドレスにメールを送信します。新しいアドレスを確認するまで反映しません。"
 
 #: plugin.php:213
 msgid "A city in the same timezone as you."
-msgstr ""
+msgstr "同じタイムゾーンの都市。"
 
 #: plugin.php:219
 msgid "A date format for all date strings."
-msgstr ""
+msgstr "すべての日付文字列の日付フォーマット。"
 
 #: plugin.php:225
 msgid "A time format for all time strings."
-msgstr ""
+msgstr "すべての時刻文字列の時刻フォーマット。"
 
 #: plugin.php:231
 msgid "A day number of the week that the week should start on."
-msgstr ""
+msgstr "週のはじめとする曜日番号。"
 
 #: plugin.php:239
 msgid "WordPress locale code."
-msgstr ""
+msgstr "WordPress の言語コード。"
 
 #: plugin.php:246
 msgid "Convert emoticons like :-) and :-P to graphics on display."
-msgstr ""
+msgstr ":-) や :-P などの文字列を絵文字に変換します。"
 
 #: plugin.php:253
 msgid "Default category."
-msgstr ""
+msgstr "カテゴリーの初期値"
 
 #: plugin.php:259
 msgid "Default post format."
-msgstr ""
+msgstr "標準の投稿フォーマット。"
 
 #: plugin.php:265
 msgid "Blog pages show at most."
@@ -1118,23 +1120,23 @@ msgstr ""
 
 #: plugin.php:424
 msgid "%s is not one of %s"
-msgstr ""
+msgstr "％s は ％s に当てはまりません"
 
 #: plugin.php:429 plugin.php:433 plugin.php:437
 msgid "%s is not of type %s"
-msgstr ""
+msgstr "％s は ％s タイプではありません。"
 
 #: plugin.php:444
 msgid "The date you provided is invalid."
-msgstr ""
+msgstr "入力した日付は無効です。"
 
 #: plugin.php:450
 msgid "The email address you provided is invalid."
-msgstr ""
+msgstr "入力したメールアドレスは無効です。"
 
 #: plugin.php:455
 msgid "%s is not a valid IP address."
-msgstr ""
+msgstr "%s は有効な IP アドレスではありません。"
 
 #: plugin.php:464
 msgid "%s must be greater than %d (exclusive)"
