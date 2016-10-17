@@ -2,7 +2,7 @@
 
 This plugin allows you to translate rest-api plugin before merging into WordPress core.
 
-## Reuiqres
+## Requires
 
 * https://ja.wordpress.org/plugins/rest-api/
 
